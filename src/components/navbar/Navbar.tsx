@@ -12,11 +12,11 @@ const Navbar: React.FC = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <Link to="/">MinhaEmpresa</Link>
+        <Link to="/">RHSOLUTION</Link>
       </div>
       <div className="navbar-links">
         <Link to="/funcionarios">Funcionários</Link>
-        <Link to="/sobre">Sobre Nós</Link>
+        <Link to="/sobrenos">Sobre Nós</Link>
         <button onClick={handleLogout}>Sair</button>
       </div>
     </nav>

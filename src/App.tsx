@@ -4,6 +4,7 @@ import Navbar from './components/navbar/Navbar'
 import Footer from './components/footer/Footer'
 import Home from './pages/Home'
 import Funcionarios from './pages/Funcionarios'
+import Sobre from './pages/Sobre'
 
 function App() {
 
@@ -11,12 +12,12 @@ function App() {
     <>
       <BrowserRouter>
       <Navbar /> {/* <- Aqui */}
-      <div style={{ display: "flex" }}>
+      <div style={{ display: "flex", backgroundColor: "#E3EDF9"}}>
         <div style={{ flex: 1}}>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/funcionarios" element={<Funcionarios />} />
-            <Route path="/sobre" element={<h1>Sobre Nós</h1>} />
+            <Route path="/sobrenos" element={< Sobre/>} />
           </Routes>
         </div>
       </div>

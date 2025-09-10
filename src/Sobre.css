@@ -1,0 +1,49 @@
+.sobre-container {
+  max-width: 950px;
+  margin: 10px auto;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.sobre-titulo {
+  color: #1e293b;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+/* Container que organiza imagem e texto lado a lado */
+.sobre-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+/* Imagem ocupa 45% */
+.sobre-imagem-container {
+  flex: 1 1 45%;
+  min-width: 350px;
+}
+
+.sobre-imagem {
+  width: 100%;
+  max-height: 700px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Texto ocupa 50% */
+.sobre-texto-container {
+  flex: 1 1 50%;
+  min-width: 280px;
+}
+
+.sobre-texto {
+  font-size: 18px;
+  color: #334155;
+  line-height: 1.6;
+}

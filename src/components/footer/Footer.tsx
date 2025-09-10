@@ -5,7 +5,7 @@ import { FaInstagram, FaLinkedin, FaFacebook } from 'react-icons/fa';
 const Footer: React.FC = () => {
   return (
     <footer className="footer">
-      <p>© {new Date().getFullYear()} MinhaEmpresa. Todos os direitos reservados.</p>
+      <p>© {new Date().getFullYear()} RHSOLUTION. Todos os direitos reservados.</p>
       <div className="social-icons">
         <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
           <FaInstagram />
